@@ -24,4 +24,90 @@
 
 /* Positioning Classes */
 
+.container{
+  display: flex;
+  text-align: center;
+  
+}
 
+.shadow3{
+  
+   flex: 33.33%;
+  
+}
+
+div .column {
+  float: left;
+  margin: 2px;
+}
+
+div p{
+  text-align: left;
+  display:block;
+}
+
+h3 {
+  text-align: left;
+}
+
+.container {
+  background-image: url(wood.jpg);
+
+}
+
+
+.contact_container{
+  
+  width: 100%;
+
+
+}
+
+
+
+div .border_right{
+  float: left;
+  width: 33.33%;
+} 
+
+.contact_container:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+
+.featured_container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.shadow2 {
+  flex: 50%;
+}
+.column {
+  background: white;
+ 
+}
+
+.column p {
+  text-align: center;
+}
+
+
+
+.text {
+  margin-left: 150px;
+  padding-left:20px;
+}
+
+.grass {
+  background: white;
+  padding: 25px;
+}
+
+#social{
+  right: 110px;
+}
